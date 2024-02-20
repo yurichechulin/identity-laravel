@@ -13,12 +13,18 @@
             "homepage": "https://github.com/avto-dev"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yurichechulin/static-references-laravel"
+        }
+    ],
     "require": {
         "php": "^8.0.2",
         "ext-mbstring": "*",
         "ext-json": "*",
         "avto-dev/extended-laravel-validator": "^3.7",
-        "avto-dev/static-references-laravel": "^4.5",
+        "avto-dev/static-references-laravel": "dev-draft",
         "illuminate/support": "~9.0 || ~10.0",
         "illuminate/config": "~9.0 || ~10.0",
         "illuminate/contracts": "~9.0 || ~10.0",
